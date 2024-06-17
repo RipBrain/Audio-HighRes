@@ -24,7 +24,8 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 ### Формулы
 
 1. **Среднеквадратичная ошибка (MSE)**:
-\[ \text{MSE} = \frac{1}{N} \sum_{i=1}^{N} (M_{real}(i) - M_{out}(i))^2 \]
+![Uploading CodeCogsEqn.svg…]()
+
 
 2. **Косинусное сходство (Cosine Similarity)**:
 \[ \text{CosSim}(P_{in}, P_{out}) = \frac{P_{in} \cdot P_{out}}{\|P_{in}\| \|P_{out}\|} \]
