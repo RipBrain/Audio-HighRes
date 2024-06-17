@@ -65,3 +65,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 ### Три модели синтеза речи
 ![output (1)](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/0ae7291c-1d1b-4871-abdd-026a700ecf0c)
+
+### Визуализация модели с мультиспикерным обучением и восстановлением аудио
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/04d4a2d8-16bf-4788-9e1d-7ffa2413a7b0)
+
