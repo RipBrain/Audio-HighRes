@@ -15,15 +15,15 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 Фул структура:
 MultiSpeaker-Audio-Repair/
-│
-├── data/
-│   ├── raw/                      # Сырые данные
-│   └── processed/                # Обработанные данные
-│
-├── models/
-│   ├── autoencoder.py            # Модель автоэнкодера
-│   ├── multispeaker_model.py     # Мультиспикерная модель
-│   ├── __init__.py               # Инициализация пакета моделей
+- │
+- ├── data/
+- │   ├── raw/                      # Сырые данные
+- │   └── processed/                # Обработанные данные
+- │
+- ├── models/
+- │   ├── autoencoder.py            # Модель автоэнкодера
+- │   ├── multispeaker_model.py     # Мультиспикерная модель
+- │   ├── __init__.py               # Инициализация пакета моделей
 │
 ├── scripts/
 │   ├── train_autoencoder.py      # Скрипт для обучения автоэнкодера
