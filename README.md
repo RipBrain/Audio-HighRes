@@ -14,7 +14,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - `utils/`: Утилиты для обработки данных и извлечения признаков.
 
 Фул структура:
-MultiSpeaker-Audio-Repair/
+- MultiSpeaker-Audio-Repair/
 - │
 - ├── data/
 - │   ├── raw/                      # Сырые данные
@@ -24,20 +24,20 @@ MultiSpeaker-Audio-Repair/
 - │   ├── autoencoder.py            # Модель автоэнкодера
 - │   ├── multispeaker_model.py     # Мультиспикерная модель
 - │   ├── __init__.py               # Инициализация пакета моделей
-│
-├── scripts/
-│   ├── train_autoencoder.py      # Скрипт для обучения автоэнкодера
-│   ├── train_multispeaker.py     # Скрипт для обучения мультиспикерной модели
-│   ├── evaluate_model.py         # Скрипт для оценки модели
-│
-├── utils/
-│   ├── data_processing.py        # Утилиты для обработки данных
-│   ├── feature_extraction.py     # Утилиты для извлечения признаков
-│   ├── __init__.py               # Инициализация пакета утилит
-│
-├── requirements.txt              # Зависимости проекта
-├── README.md                     # Описание проекта
-└── .gitignore                    # Игнорируемые файлы Git
+- │
+- ├── scripts/
+- │   ├── train_autoencoder.py      # Скрипт для обучения автоэнкодера
+- │   ├── train_multispeaker.py     # Скрипт для обучения мультиспикерной модели
+- │   ├── evaluate_model.py         # Скрипт для оценки модели
+- │
+- ├── utils/
+- │   ├── data_processing.py        # Утилиты для обработки данных
+- │   ├── feature_extraction.py     # Утилиты для извлечения признаков
+- │   ├── __init__.py               # Инициализация пакета утилит
+- │
+- ├── requirements.txt              # Зависимости проекта
+- ├── README.md                     # Описание проекта
+- └── .gitignore                    # Игнорируемые файлы Git
 
 
 ## Установка
