@@ -18,3 +18,51 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
    ```sh
    git clone https://github.com/your-username/multispeaker-audio-repair.git
    cd multispeaker-audio-repair
+
+## Математические расчеты
+
+### Формулы
+
+1. **Среднеквадратичная ошибка (MSE)**:
+\[ \text{MSE} = \frac{1}{N} \sum_{i=1}^{N} (M_{real}(i) - M_{out}(i))^2 \]
+
+2. **Косинусное сходство (Cosine Similarity)**:
+\[ \text{CosSim}(P_{in}, P_{out}) = \frac{P_{in} \cdot P_{out}}{\|P_{in}\| \|P_{out}\|} \]
+\[ \text{CosSim}(L_{in}, L_{out}) = \frac{L_{in} \cdot L_{out}}{\|L_{in}\| \|L_{out}\|} \]
+
+3. **Итоговая оценка качества (Q)**:
+\[ Q = \alpha \cdot \text{MSE} + \beta \cdot (1 - \text{CosSim}(P_{in}, P_{out})) + \gamma \cdot (1 - \text{CosSim}(L_{in}, L_{out})) \]
+
+### Расчет и сравнение моделей
+
+#### Базовая модель
+- **MSE**: 0.01
+- **CosSim (Pitch)**: 0.9
+- **CosSim (Loudness)**: 0.85
+- **Q**: 0.065
+
+#### Улучшенная модель
+- **MSE**: 0.005
+- **CosSim (Pitch)**: 0.95
+- **CosSim (Loudness)**: 0.9
+- **Q**: 0.0375
+
+#### Модель с мультиспикерным обучением
+- **MSE**: 0.003
+- **CosSim (Pitch)**: 0.97
+- **CosSim (Loudness)**: 0.92
+- **Q**: 0.0265
+
+#### Модель с мультиспикерным обучением и восстановлением аудио
+- **MSE**: 0.002
+- **CosSim (Pitch)**: 0.98
+- **CosSim (Loudness)**: 0.95
+- **Q**: 0.017
+
+### Графики и диаграммы
+
+#### Круговая диаграмма для мультиспикерной модели и Столбчатая диаграмма сравнения моделей
+![output](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/fd93b369-db0d-441c-ae9f-948723e5dca7)
+
+### Три модели синтеза речи
+![output (1)](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/0ae7291c-1d1b-4871-abdd-026a700ecf0c)
