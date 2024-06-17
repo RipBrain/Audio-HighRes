@@ -24,15 +24,13 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 ### Формулы
 
 1. **Среднеквадратичная ошибка (MSE)**:
-![Uploading CodeCogsEqn.svg…]()
-
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/ac1864b1-6cd7-4179-a0a4-f36f5b21ab8f)
 
 2. **Косинусное сходство (Cosine Similarity)**:
-\[ \text{CosSim}(P_{in}, P_{out}) = \frac{P_{in} \cdot P_{out}}{\|P_{in}\| \|P_{out}\|} \]
-\[ \text{CosSim}(L_{in}, L_{out}) = \frac{L_{in} \cdot L_{out}}{\|L_{in}\| \|L_{out}\|} \]
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/3dcb3507-b172-4f78-bb55-3cc263b6cc2c)
 
 3. **Итоговая оценка качества (Q)**:
-\[ Q = \alpha \cdot \text{MSE} + \beta \cdot (1 - \text{CosSim}(P_{in}, P_{out})) + \gamma \cdot (1 - \text{CosSim}(L_{in}, L_{out})) \]
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/e840f783-ed56-41ae-a862-3b200afee528)
 
 ### Расчет и сравнение моделей
 
