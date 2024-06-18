@@ -40,15 +40,11 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - └── .gitignore                    # Игнорируемые файлы Git
 
 
-
-
 ## Установка
 1. Клонируйте репозиторий:
    ```sh
    git clone https://github.com/your-username/multispeaker-audio-repair.git
    cd multispeaker-audio-repair
-
-
 
 
 ## Распределение задач
