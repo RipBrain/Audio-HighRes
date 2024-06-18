@@ -54,7 +54,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - ├── requirements.txt              # Зависимости проекта
 - ├── README.md                     # Описание проекта
 - └── .gitignore                    # Игнорируемые файлы Git
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 <a name="rep-download"></a>
 ## Установка
@@ -62,7 +62,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
    ```sh
    git clone https://github.com/your-username/multispeaker-audio-repair.git
    cd multispeaker-audio-repair
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 <a name="task-distribution"></a>
 ## Распределение задач
@@ -93,7 +93,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 ### Развертывание и поддержка
 - **Развертывание модели**: Развертывание модели на сервере или в облаке.
 - **Поддержка и обновление модели**: Обеспечение поддержки и обновления модели.
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="git-rules-team"></a>
@@ -130,7 +130,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - **Папки:**
   - `documentation/`: документация проекта
   - `deployment/`: файлы для развертывания моделей
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="task-distribution-teams"></a>
@@ -235,7 +235,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - **Источники информации**:
   - Документация облачных сервисов (например, AWS, Azure).
   - Руководства по развертыванию моделей.
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="gantt"></a>
@@ -259,7 +259,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 | | Визуализация результатов | | | | | x | x | | | |
 | Развертывание и поддержка | Развертывание модели | | | | | | x | x | | |
 | | Поддержка и обновление модели | | | | | | | x | x | x |
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="help-rules-team"></a>
@@ -305,7 +305,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 #### После завершения
 - "Разметка данных" завершена усилиями обеих бригад.
 - Обе бригады переходят к задаче "Сбор данных".
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="recomendation-team"></a>
@@ -370,7 +370,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - Настройте серверное окружение для развертывания моделей.
 - Обеспечьте безопасность и стабильность развернутой системы.
 - Документируйте процесс развертывания для будущих обновлений и масштабирования.
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="git-work"></a>
@@ -412,7 +412,7 @@ git pull origin main
 git merge <имя_ветки>
 git push origin main
 ```
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="github-work"></a>
@@ -433,7 +433,7 @@ git push origin main
 ## Создание и переключение веток
 В приложении GitHub Desktop выберите "Branch" и затем "New Branch", чтобы создать новую ветку.
 Для переключения между ветками используйте меню веток.
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 <a name="mat-logic"></a>
@@ -475,7 +475,7 @@ git push origin main
 - **CosSim (Pitch)**: 0.98
 - **CosSim (Loudness)**: 0.95
 - **Q**: 0.017
-[На старт](#mar-start)
+- [На старт](#mar-start)
 
 
 ## Графики и диаграммы
@@ -488,4 +488,4 @@ git push origin main
 
 ### Визуализация модели с мультиспикерным обучением и восстановлением аудио
 ![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/04d4a2d8-16bf-4788-9e1d-7ffa2413a7b0)
-[На старт](#mar-start)
+- [На старт](#mar-start)
