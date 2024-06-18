@@ -46,56 +46,6 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
    git clone https://github.com/your-username/multispeaker-audio-repair.git
    cd multispeaker-audio-repair
 
-## Математические расчеты
-
-### Формулы
-
-1. **Среднеквадратичная ошибка (MSE)**:
-![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/ac1864b1-6cd7-4179-a0a4-f36f5b21ab8f)
-
-2. **Косинусное сходство (Cosine Similarity)**:
-![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/3dcb3507-b172-4f78-bb55-3cc263b6cc2c)
-
-3. **Итоговая оценка качества (Q)**:
-![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/e840f783-ed56-41ae-a862-3b200afee528)
-
-### Расчет и сравнение моделей
-
-#### Базовая модель
-- **MSE**: 0.01
-- **CosSim (Pitch)**: 0.9
-- **CosSim (Loudness)**: 0.85
-- **Q**: 0.065
-
-#### Улучшенная модель
-- **MSE**: 0.005
-- **CosSim (Pitch)**: 0.95
-- **CosSim (Loudness)**: 0.9
-- **Q**: 0.0375
-
-#### Модель с мультиспикерным обучением
-- **MSE**: 0.003
-- **CosSim (Pitch)**: 0.97
-- **CosSim (Loudness)**: 0.92
-- **Q**: 0.0265
-
-#### Модель с мультиспикерным обучением и восстановлением аудио
-- **MSE**: 0.002
-- **CosSim (Pitch)**: 0.98
-- **CosSim (Loudness)**: 0.95
-- **Q**: 0.017
-
-### Графики и диаграммы
-
-#### Круговая диаграмма для мультиспикерной модели и Столбчатая диаграмма сравнения моделей
-![output](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/fd93b369-db0d-441c-ae9f-948723e5dca7)
-
-### Три модели синтеза речи
-![output (1)](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/0ae7291c-1d1b-4871-abdd-026a700ecf0c)
-
-### Визуализация модели с мультиспикерным обучением и восстановлением аудио
-![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/04d4a2d8-16bf-4788-9e1d-7ffa2413a7b0)
-
 ## Распределение задач
 
 ### Подготовка данных
@@ -443,3 +393,53 @@ git push origin main
 ## Создание и переключение веток
 В приложении GitHub Desktop выберите "Branch" и затем "New Branch", чтобы создать новую ветку.
 Для переключения между ветками используйте меню веток.
+
+## Математические расчеты
+
+### Формулы
+
+1. **Среднеквадратичная ошибка (MSE)**:
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/ac1864b1-6cd7-4179-a0a4-f36f5b21ab8f)
+
+2. **Косинусное сходство (Cosine Similarity)**:
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/3dcb3507-b172-4f78-bb55-3cc263b6cc2c)
+
+3. **Итоговая оценка качества (Q)**:
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/e840f783-ed56-41ae-a862-3b200afee528)
+
+### Расчет и сравнение моделей
+
+#### Базовая модель
+- **MSE**: 0.01
+- **CosSim (Pitch)**: 0.9
+- **CosSim (Loudness)**: 0.85
+- **Q**: 0.065
+
+#### Улучшенная модель
+- **MSE**: 0.005
+- **CosSim (Pitch)**: 0.95
+- **CosSim (Loudness)**: 0.9
+- **Q**: 0.0375
+
+#### Модель с мультиспикерным обучением
+- **MSE**: 0.003
+- **CosSim (Pitch)**: 0.97
+- **CosSim (Loudness)**: 0.92
+- **Q**: 0.0265
+
+#### Модель с мультиспикерным обучением и восстановлением аудио
+- **MSE**: 0.002
+- **CosSim (Pitch)**: 0.98
+- **CosSim (Loudness)**: 0.95
+- **Q**: 0.017
+
+### Графики и диаграммы
+
+#### Круговая диаграмма для мультиспикерной модели и Столбчатая диаграмма сравнения моделей
+![output](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/fd93b369-db0d-441c-ae9f-948723e5dca7)
+
+### Три модели синтеза речи
+![output (1)](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/0ae7291c-1d1b-4871-abdd-026a700ecf0c)
+
+### Визуализация модели с мультиспикерным обучением и восстановлением аудио
+![image](https://github.com/RipBrain/MultiSpeaker-Audio-Repair/assets/41776352/04d4a2d8-16bf-4788-9e1d-7ffa2413a7b0)
