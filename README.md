@@ -1,3 +1,4 @@
+<a name="mar-start"></a>
 # MultiSpeaker-Audio-Repair
 MultiSpeaker Audio Repair — это комплексный проект, предназначенный для восстановления поврежденных аудиодорожек и синтеза речи с использованием мультиспикерного обучения и нейросетей. Проект использует передовые архитектуры нейросетей, такие как автоэнкодеры и модели на основе LSTM, для улучшения качества аудио и обеспечения точного синтеза речи.
 
@@ -6,6 +7,21 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - **Синтез речи**: Синтез речи с учетом параметров нескольких спикеров для получения более естественного звучания.
 - **Мультиспикерное обучение**: Обучение модели на данных от нескольких спикеров для улучшения обобщающих способностей модели.
 
+## Содержание
+- [Начало](#mar-start)
+- [Структура проекта](#main-structure)
+- [Установка](#rep-download)
+- [Распределение задач](#task-distribution)
+- [Ветки бригад](#git-rules-team)
+- [Распределение задач по бригадам](#task-distribution-teams)
+- [Календарь работы](#gantt)
+- [Правила помощи бригад](#help-rules-team)
+- [Рекомендации для бригад](#recomendation-team)
+- [Работа с Git](#git-work)
+- [Работа с GitHub Desk](#github-work)
+- [Математические расчеты](#math-logic)
+
+<a name="main-structure"></a>
 ## Структура проекта
 
 - `data/`: Директория для сырых и обработанных данных.
@@ -39,14 +55,14 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 - ├── README.md                     # Описание проекта
 - └── .gitignore                    # Игнорируемые файлы Git
 
-
+<a name="rep-download"></a>
 ## Установка
 1. Клонируйте репозиторий:
    ```sh
    git clone https://github.com/your-username/multispeaker-audio-repair.git
    cd multispeaker-audio-repair
 
-
+<a name="task-distribution"></a>
 ## Распределение задач
 
 ### Подготовка данных
@@ -78,7 +94,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 
 
-
+<a name="git-rules-team"></a>
 ## Правило использования Git для бригад
 
 ### Бригады и их ветки:
@@ -115,7 +131,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 
 
-
+<a name="task-distribution-teams"></a>
 ## Распределение задач по бригадам
 
 ### Бригада 1: Подготовка данных
@@ -220,7 +236,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 
 
-
+<a name="gantt"></a>
 ## График выполнения проекта (Gantt диаграмма)
 Бригады: Б1, Б2, Б3, Б4, Б5.
 
@@ -244,7 +260,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 
 
-
+<a name="help-rules-team"></a>
 # Правило помощи бригад
 
 ## Правило
@@ -290,7 +306,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 
 
-
+<a name="recomendation-team"></a>
 ## Рекомендации для каждой бригады
 
 ### Бригада 1: Подготовка данных
@@ -355,7 +371,7 @@ MultiSpeaker Audio Repair — это комплексный проект, пре
 
 
 
-
+<a name="git-work"></a>
 # Работа с Git
 
 ## Установка Git
@@ -397,7 +413,7 @@ git push origin main
 
 
 
-
+<a name="github-work"></a>
 # Работа с приложением GitHub
 
 ## Скачивание GitHub Desktop
@@ -418,7 +434,7 @@ git push origin main
 
 
 
-
+<a name="mat-logic"></a>
 # Математические расчеты
 
 ## Формулы
