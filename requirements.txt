@@ -1,0 +1,10 @@
+vosk
+pydub
+deepmultilingualpunctuation
+razdel
+torch
+TTS
+scipy
+python-telegram-bot
+fastapi
+uvicorn
